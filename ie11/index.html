@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="login-ie11.css"></head>
+<body>
+    
+    
+    <div id="authWin" class="ui-widget-content ui-draggable"><a href="x" id="closeButton"></a>
+      <div id="connecting">Connecting to anywhere.</div>     
+      <form id="login-form" action="#">
+        <ul>
+          <li>
+              <input class="login-input" id="name-input" name="name" type="text" placeholder="User name"></input>
+          </li>
+          <li>
+            <input class = "login-input" id="password-input" name="password" type="password" placeholder="Password"></input>
+          </li>
+            <li id="domain">Domain: MyDomain</li>
+            <li id="remember"><input type="checkbox" name="remember">Remember my credentials</input></li>
+        </ul>
+        <p id="buttons">
+          <button>Ok</button><button>Cancel</button>
+        </p>
+      </form>
+    </div>
+    
+    
+    <img src="login-ie11.png"/>
+    
+    
+    
+    
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/ntlmlogin.js"></script>
+    </body>
+</html>
