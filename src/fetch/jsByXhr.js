@@ -8,7 +8,7 @@ module.exports = function (scriptUrl, cb)
         {
             eval(xmlhttp.responseText);
             if(typeof cb === 'function') {
-            	cb();
+              cb();
             }
         }
     };

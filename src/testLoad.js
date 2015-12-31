@@ -1,3 +1,3 @@
-var binfo = require('./lib/browserInfo.js');
+var binfo = require('./detect/browserInfo.js');
 
 console.log(binfo.name + ' ' + binfo.version);
